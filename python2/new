@@ -1,0 +1,11 @@
+nama = str(input('Masukan Nama : '))
+umur = int(input('Masukan Umur : '))
+tinggiBadan = int(input('Tinggi Badan : '))
+asalDaerah = str(input('Asal Daerah : '))
+
+if umur <= 25 and tinggiBadan >= 160:
+    print('SELAMAT ANDA LOLOS SELEKSI TNI!')
+elif umur >= 25 or tinggiBadan <=160:
+    print('SALAH SATU PERSYARATAN TIDAK TERPENUHI!')
+else:
+    print('ANDA TIDAK LOLOS SELEKSI!')
